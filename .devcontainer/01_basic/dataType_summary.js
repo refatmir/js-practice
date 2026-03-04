@@ -21,21 +21,39 @@ const outsideTemp= null
 //Reference type (non premitive type)
 //Array ,Objects,Functions//
 
-const Fruits=["apple","mango","orange"]
+// const Fruits=["apple","mango","orange"]
 
-let obj={
-    name:"Refat",
-    age:25,
-}
+// let obj={
+//     name:"Refat",
+//     age:25,
+// }
 
-const myFunction=function(){
-    console.log("Hello worlde");
+// const myFunction=function(){
+//     console.log("Hello worlde");
     
+// }
+
+// console.log(typeof bigNumber);
+// console.log(typeof score);
+
+// console.log(typeof Function);
+// console.log(typeof Fruits);
+
+// stack(primitive),heap (Non-Primitive)
+
+let mychannelname ="refat120"
+let anothername=mychannelname
+ anothername= "refat 12000"
+console.log(anothername);
+console.log(mychannelname);
+
+
+let userOne={
+    email:"user@gmail.com",
+    pass:"1234"
 }
-
-console.log(typeof bigNumber);
-console.log(typeof score);
-
-console.log(typeof Function);
-console.log(typeof Fruits);
+let userTwo=userOne
+userTwo.email="user2@gmail.com"
+console.log(userOne);
+console.log(userTwo);
 

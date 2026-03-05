@@ -17,6 +17,9 @@ person['lastName']='Mir'
 
 // console.log(person.length)
 // console.log(person);
+  const arr6 = ["react","vue","angular"]
+   console.log(arr6.length);
+
 
 
 //delete last item
@@ -34,4 +37,4 @@ const arr4=[2124,543,55]
 const arr3=arr1.concat(arr2,arr4)
 arr3.splice(2,4,"refat","mir")
 
-console.log(arr3)
+// console.log(arr3)
